@@ -38,8 +38,7 @@ const CreatePinCode = (props) => {
         />
         <Pincode
             title={confirm_pincode == false ? 'ตั้งรหัส PIN CODE' : 'ยินยันรหัส PIN CODE'}
-            onChangeValue={(res) => {
-                console.log('check res --> ', res);
+            onChangeValue={(res) => {               
                 check_pinCode(res)
             }}
             value={pincode_value}

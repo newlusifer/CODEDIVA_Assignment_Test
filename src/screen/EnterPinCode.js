@@ -71,8 +71,7 @@ const EnterPinCode = (props) => {
         <Pincode
             title={'กรุณากรอกรหัส PIN'}
             scan_finger
-            onChangeValue={(res) => {
-                console.log('check res --> ', res);
+            onChangeValue={(res) => {               
                 check_pinCode(res)
             }}
             value={pincode_value}

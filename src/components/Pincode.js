@@ -56,9 +56,7 @@ export default function CreatePinCode(props) {
                                     pin_value.current += index + 1
                                     props.onChangeValue(pin_value.current)
                                 }
-                                forceUpdate()
-                                //   console.log('check click!! --> ', pin_value.current);
-                                //  console.log('check pin_value.length!! --> ', pin_value.current.length);
+                                forceUpdate()                               
                             }}
                             onPressIn={() => {
                                 id_onpress_btn.current = index
@@ -77,9 +75,7 @@ export default function CreatePinCode(props) {
                             onPress={() => {
                                 pin_value.current = pin_value.current.substr(0, pin_value.current.length - 1);
                                 props.onChangeValue(pin_value.current)
-                                forceUpdate()
-                                //  console.log('check click!! --> ', pin_value.current);
-                                //  console.log('check pin_value.length!! --> ', pin_value.current.length);
+                                forceUpdate()                              
                             }}
                         >
                             <FontAwesomeIcon key={index}
