@@ -1,6 +1,6 @@
 <resources>
-    <color name="notificationColor">#5DC9F8</color>
+    <color name="notificationColor">#b8884e</color>
     <color name="colorPrimary">#3F51B5</color>   
-    <color name="colorPrimaryDark">#5DC9F8</color> <!--change color of stats bar-->
-    <color name="colorAccent">#5DC9F8</color>
+    <color name="colorPrimaryDark">#b8884e</color> <!--change color of stats bar-->
+    <color name="colorAccent">#b8884e</color>
 </resources>
